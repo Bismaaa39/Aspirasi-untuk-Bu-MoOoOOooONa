@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspirasi untuk Bu Mona</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+    <h2>✨ Aspirasi untuk Bu Mona ✨</h2>
+    <p class="subtitle">Sampaikan aspirasi dan saran terbaikmu untuk Bu Mona! 😊</p>
+
+    <form id="aspirasiForm">
+        <div class="form-group">
+            <label for="nama">👤 Nama (Opsional):</label>
+            <input type="text" id="nama" placeholder="Boleh dikosongkan jika anonim">
+        </div>
+
+        <div class="form-group">
+            <label for="aspirasi">📝 <span id="animasiTeks">Tuliskan Aspirasi untuk Bu Mona:</span></label>
+            <textarea id="aspirasi" rows="4" placeholder="Bu Mona yang terhormat, saya ingin menyampaikan..."></textarea>
+        </div>
+
+        <button type="button" onclick="kirimAspirasi()">🚀 Kirim Aspirasi</button>
+    </form>
+
+    <div class="aspirasi-list" id="aspirasiList">
+        <h3>📜 Daftar Aspirasi</h3>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
